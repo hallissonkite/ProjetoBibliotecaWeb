@@ -1,0 +1,145 @@
+* {
+	margin:0px;
+	padding:0px;
+	
+	
+}
+body{
+	background: url(biblio.jpg);
+	background-size: 55%;
+}
+.menu{
+	list-style-type:"";
+	margin: 20px;
+	border:1px solid #FFFF00;
+	float:left;
+}
+
+.menu li{
+	position:relative;
+	float:left;
+	border-right: 1px solid #FFFF00;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #808000;
+	height: 28px;
+	line-height: 28px;
+		
+}
+.menu li a{
+	font-family: sans-serif;
+	font-size: 15px;
+	color:#FFFFFF;
+	text-decoration: none;
+}
+.menu li ul{
+	position:absolute;
+	top::28px;
+	left:-20px;
+	display:none;
+}
+
+.menu li:hover ul, .menu li ul li:hover ul, .menu li.over ul, .menu li ul li.over ul{
+	display:block;
+}
+.montanha{
+	position: absolute;
+	top: 60%;
+	left: 22%;
+	transform: translate(-50%,-50%);
+	width: 300px;
+	height: 340px;
+	padding: 0px;
+}
+.descricao{
+	position: absolute;
+	top: 60%;
+	left: 68%;
+	transform: translate(-50%,-50%);
+	width: 870px;
+	height: 40px;
+	padding: 0px;
+	color:#FFFFFF;
+	
+	font-family: sans-serif;
+	font-size: 10px;
+	
+}
+.botao{
+	position: absolute;
+	top: 90%;
+	left: 22%;
+	transform: translate(-50%,-50%);
+	width: 80px;
+	height: 20px;
+	padding: 0px;
+}
+.mosqueteiros{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100px;
+	height: 140px;
+	padding: 0px;
+}
+.guerra{
+	position: absolute;
+	top: 50%;
+	left: 38%;
+	transform: translate(-50%,-50%);
+	width: 100px;
+	height: 140px;
+	padding: 0px;
+}
+.dom{
+	position: absolute;
+	top: 50%;
+	left: 26%;
+	transform: translate(-50%,-50%);
+	width: 100px;
+	height: 140px;
+	padding: 0px;
+}
+.comedia{
+	position: absolute;
+	top: 50%;
+	left: 14%;
+	transform: translate(-50%,-50%);
+	width: 100px;
+	height: 140px;
+	padding: 0px;
+}
+.narnia{
+	position: absolute;
+	top: 50%;
+	left: 74%;
+	transform: translate(-50%,-50%);
+	width: 100px;
+	height: 140px;
+	padding: 0px;
+}
+.got{
+	position: absolute;
+	top: 50%;
+	left: 86%;
+	transform: translate(-50%,-50%);
+	width: 100px;
+	height: 140px;
+	padding: 0px;
+}
+
+
+
+.menu li ul li{
+	border:1px solid #FFFF00;
+	display:block;
+	width:150px;
+	height:25px;
+	line-height:25px;
+}
+
+
+
+
+

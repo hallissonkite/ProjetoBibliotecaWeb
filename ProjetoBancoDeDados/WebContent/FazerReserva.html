@@ -1,0 +1,26 @@
+<jsp:useBean id="validarReserva" class="DaoReserva.JDBCreservaDao" type="DaoReserva.JDBCreservaDao" scope="page"></jsp:useBean>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta accept-charset = utf-8>
+<title>Insert title here</title>
+<link rel="stylesheet" href="fazerReserva.css" type="text/css">
+</head>
+<body>
+			<div class="LoginBox">
+	<h1>Fazer sua Reserva</h1>
+	
+			
+			<form action="reservaServlet" method="post">
+				id_usuario:
+				<input type="text" id="id_usuario" name="id_usuario" placeholder="id_usuario" required>
+				<br/>
+                cod_exemplar:
+				<input type="text" id="cod_exemplar" name="cod_exemplar" placeholder="cod_exemplar" required>
+				<br/>
+				<input type="Submit" value="Reservar">
+				</form>
+				</div>
+</body>
+</html>
